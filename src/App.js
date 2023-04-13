@@ -29,8 +29,8 @@ function App() {
         <Grid className='App-wrapper'>
           <div className="App" >
             <Routes>
-              <Route path="*" element={<Navigate to="/" replace={true} />}></Route>
-              <Route path="/" element={<Articles />} />
+              <Route path="*" element={<Navigate to="/my_styling" replace={true} />}></Route>
+              <Route path="/my_styling" element={<Articles />} />
               <Route path="/Article" element={<Article />} />
             </Routes>
           </div>
