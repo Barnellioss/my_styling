@@ -2,7 +2,7 @@ export const data = [{ image: "milky-way.jpg", smallTitle: "Replacing the Switch
 { image: "milky-way.jpg", smallTitle: "Replacing the Switch Statement", title: "Rewriting Javascript : Replacing the Switch Statement", text: "" }]
 
 
-export const fonts = ["Georgia", "Helvetica", "Times New Roman", "Arial", "Verdana", 'Franklin Gothic Medium'];
+export const fonts = ['Lato', 'Libre Franklin', 'Noto Sans', 'Prompt', 'Roboto', 'Dancing Script'];
 
 export const colors = ['#FFFFFF', '#F8F1E1', '#5A5A5C', '#010101'];
 

@@ -22,7 +22,7 @@ export const Article = () => {
     font-size: ${fontSize}px;
     color: ${color};
     opacity: ${brightness};
-    font-family: ${fontFamily};
+    font-family: ${fontFamily}, sans-serif;
     font-weight: ${fontWeight};
     `
 

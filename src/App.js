@@ -5,8 +5,7 @@ import Grid from '@mui/material/Grid';
 import { StoreContext } from './store';
 import { Tooltip } from './components/tooltip';
 import { Header } from './components/Header';
-import styled from 'styled-components'
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { Article } from './components/article';
 
 
@@ -21,7 +20,7 @@ function App() {
     borderColorValue: [borderColor, setBorder],
     fontWeightValue: [fontWeight, setFontWeight] } = useContext(StoreContext)
 
-  
+
 
   return (
     <Grid backgroundColor={`${bgColor}`} minHeight='100vh'>
@@ -30,7 +29,8 @@ function App() {
         <Grid className='App-wrapper'>
           <div className="App" >
             <Routes>
-              <Route path="/" exact element={<Articles />} />
+              <Route path="*" element={<Navigate to="/" replace={true} />}></Route>
+              <Route path="/" element={<Articles />} />
               <Route path="/Article" element={<Article />} />
             </Routes>
           </div>

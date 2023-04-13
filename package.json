@@ -1,21 +1,20 @@
 {
   "name": "my_styling",
   "version": "0.1.0",
-  "homepage": "https://github.com/Barnellioss/my_styling",
+  "homepage": "https://barnellioss.github.io/my_styling",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@mui/icons-material": "^5.11.11",
     "@mui/material": "^5.11.15",
-    "@mui/styles": "^5.11.16",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "5.0.0",
     "reactjs-popup": "^2.0.5",
     "styled-components": "^5.3.9",
     "web-vitals": "^2.1.4"
@@ -23,7 +22,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
