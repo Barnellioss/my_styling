@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/my_styling/static/css/main.f6461a26.css",
+    "main.js": "/my_styling/static/js/main.ea97e4c0.js",
+    "static/js/787.d5d2a4c3.chunk.js": "/my_styling/static/js/787.d5d2a4c3.chunk.js",
+    "static/media/milky-way.jpg": "/my_styling/static/media/milky-way.b85a9633a4011e1004cf.jpg",
+    "static/media/settings.svg": "/my_styling/static/media/settings.ac5f4387e7293dabc600.svg",
+    "index.html": "/my_styling/index.html",
+    "static/media/styled-component-icon.svg": "/my_styling/static/media/styled-component-icon.2665a6badec22785575f3db0d6e139df.svg",
+    "main.f6461a26.css.map": "/my_styling/static/css/main.f6461a26.css.map",
+    "main.ea97e4c0.js.map": "/my_styling/static/js/main.ea97e4c0.js.map",
+    "787.d5d2a4c3.chunk.js.map": "/my_styling/static/js/787.d5d2a4c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6461a26.css",
+    "static/js/main.ea97e4c0.js"
+  ]
+}
